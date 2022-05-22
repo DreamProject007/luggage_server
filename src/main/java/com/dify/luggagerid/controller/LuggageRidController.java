@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/")
 public class LuggageRidController {
 	
 }
