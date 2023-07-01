@@ -17,7 +17,7 @@ import com.dify.luggagerid.service.LocationService;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/api1")
+@RequestMapping("/api")
 public class LuggageRidController {
 	
 	@Autowired
