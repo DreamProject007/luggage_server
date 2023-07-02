@@ -29,4 +29,10 @@ public class LuggageRidController {
 		return new ResponseEntity<List<LocationEntity>>(list, HttpStatus.OK);
 	}
 	
+	@GetMapping("/allplaces")
+	public ResponseEntity<List<LocationEntity>> getAllPlacesData() throws LuggageRidException{
+		List<LocationEntity> list = locationService.findAllPlaces();
+		return new ResponseEntity<List<LocationEntity>>(list, HttpStatus.OK);
+	}
+	
 }

@@ -9,4 +9,6 @@ public interface LocationService {
 
 	public List<LocationEntity> findByCity(String city) throws LuggageRidException;
 
+	public List<LocationEntity> findAllPlaces();
+
 }
