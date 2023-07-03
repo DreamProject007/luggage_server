@@ -19,6 +19,7 @@ public class LocationEntity {
 	public String place;
 	public Integer rating;
 	public String description;
+	public Boolean active;
 
 	public String getDescription() {
 		return description;
@@ -76,5 +77,14 @@ public class LocationEntity {
 		this.longitude = longitude;
 	}
 
+	public Boolean getActive() {
+		return active;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
+	}
+
+	
 	// override toString method
 }
